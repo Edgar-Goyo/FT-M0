@@ -101,7 +101,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
- return(num%2==1);
+ return(num%2===1);
 }
 
 function elevarAlCuadrado(num) {
@@ -114,7 +114,7 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  return (num ** 3);
+  return Math.pow(num,3)
 }
 
 function elevar(num, exponent) {
@@ -138,7 +138,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return Math.random (0,1)
+  return Math.random ()
 }
 
 function esPositivo(numero) {
@@ -160,14 +160,14 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return (str+"!")
+  return str + "!"
 }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return (nombre,"",apellido)
+  return nombre + " " + apellido
   
 }
 
@@ -175,7 +175,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  Return Concat("hola"+"nombre")  
+  Return hola + nombre + "!" ;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -195,7 +195,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-return ( (base*altura)/2)
+return base*altura/2;
 }
 
 
@@ -213,23 +213,21 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   //Escribe tu código aquí
   
-  if (letra=="a") {
-return "Es vocal"
-  }
-  else if (letra=="e") {
+  if (letra.length>1)return "dato incorrecto";
+if (letra === a) return "Es vocal" 
+  
+  else if (letra==="e") 
     return "Es vocal"
-  }
-  if (letra=="i") {
+  
+  if (letra==="i") 
     return "Es vocal"
-      }
-      if (letra=="o") {
-        return "Es vocal"
-          }
-          if (letra=="u") {
+
+    if (letra==="o") 
+    return "Es vocal"      
+          
+          if (letra==="u") {
             return "Es vocal"
-              }
-              if(letra.length > 1) { 
-                return "Dato incorrecto"}
+              
               
 }
 

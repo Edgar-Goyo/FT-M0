@@ -1,0 +1,5 @@
+VARIABLES: Son expresiones que nos permiten asignar a un elemento, un valor correspondiente, var a = 5
+STRINGS: Son cadenas que nos permiten asignar a un elemento, una variable de tipo alfanumerico valor = "afirmativo"
+FUNCIONES /ARGUMENTOS RETURN Es un codigo que nos devuelve el resultado de una operacion realizada, es de tipo cerrado.
+DECLARACIONES IF, son instrucciones que anteceden la toma de decision dentro de una instrucciones
+VALORES BOOLENANOS, Son aquellos que nos permiten aplicar la logica de falso o verdadero dentro de una serie de comandos

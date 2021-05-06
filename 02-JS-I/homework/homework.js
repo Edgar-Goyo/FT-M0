@@ -167,6 +167,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
+  return (nombre,"",apellido)
   
 }
 
@@ -174,7 +175,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return concat("hola",nombre)  
+  Return Concat("hola"+"nombre")  
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -212,23 +213,23 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   //Escribe tu código aquí
   
-  if (letra="a") {
-return "es vocal"
+  if (letra=="a") {
+return "Es vocal"
   }
-  else if (letra="e") {
-    return "es vocal"
+  else if (letra=="e") {
+    return "Es vocal"
   }
-  if (letra="i") {
-    return "es vocal"
+  if (letra=="i") {
+    return "Es vocal"
       }
-      if (letra="o") {
-        return "es vocal"
+      if (letra=="o") {
+        return "Es vocal"
           }
-          if (letra="u") {
-            return "es vocal"
+          if (letra=="u") {
+            return "Es vocal"
               }
               if(letra.length > 1) { 
-                return "dato incorrecto"}
+                return "Dato incorrecto"}
               
 }
 

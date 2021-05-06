@@ -1,0 +1,4 @@
+FOR Es un una expresion que inicia un bucle , que se utiliza para repetir una instruccion n numero de veces
+&& Es un conector que utilizando la logica booleana, compara dos expresiones obteniendo un resultado final, dependiendo del valor de ellas 0 o 1 AND
+|| Es un conector que tambien se utiliza para comparar dos expresiones OR
+! es un conector que cambia el estado de la siguiente expresion NOT

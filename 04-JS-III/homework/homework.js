@@ -27,9 +27,11 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  //for (let b=0; b<array.length; b++)
-  //array[b]+1; return array([b]+1;  
+
+  // for (let b=0; b<array.length; b++)
+  // array[b]+1; return array([b]+1;
 }
+
 
 
 function agregarItemAlFinalDelArray(array, elemento) {
@@ -55,13 +57,14 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  //for (i= 0; i<palabras.length;i++)
-//return (palabras[i]+"");
-return (palabras.slice(0)+"");
-palabras.splice(1);
-return (palabras.slice(1)
-palabras.splice(1);
-}
+//   for (i= 0; i<palabras.length;i++)
+// return (palabras[i]+"");
+// return (palabras.slice(0)+"");
+// palabras.splice(1);
+// return (palabras.slice(1)
+// palabras.splice(1);
+
+
 
 
 
@@ -191,5 +194,6 @@ module.exports = {
   mesesDelAño,
   mayorACien,
   breakStatement,
-  continueStatement
-};
+  continueStatement,
+}
+  }

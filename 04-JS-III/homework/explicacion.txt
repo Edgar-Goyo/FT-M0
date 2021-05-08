@@ -1,0 +1,1 @@
+ARRAY : Es un "archivador" que guarda datos ordenados y organizados que seran procesados de acuerdo a instrucciones.

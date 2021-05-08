@@ -26,11 +26,13 @@ function incrementarPorUno(array) {
   // "array" debe ser una matriz de enteros (int/integers)
   // Aumenta cada entero por 1
   // y devuelve el array
-  // Tu código:
-
-  // for (let b=0; b<array.length; b++)
-  // array[b]+1; return array([b]+1;
+  // Tu código:{
+    for (let b=0; b<incrementarPorUno.length; b++) {
+      return  (incrementarPorUno[b]+1);
 }
+  
+}
+  
 
 
 
@@ -57,13 +59,8 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-//   for (i= 0; i<palabras.length;i++)
-// return (palabras[i]+"");
-// return (palabras.slice(0)+"");
-// palabras.splice(1);
-// return (palabras.slice(1)
-// palabras.splice(1);
-
+  return (palabras [0]+ " " + palabras[1]+ " " + palabras [2] )
+}
 
 
 
@@ -72,6 +69,7 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+  return array.includes ("elemento")
 }
 
 
@@ -79,6 +77,10 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+  numeros.forEach (function(numero){
+    suma += numero;
+});
+return(suma);
 }
 
 
@@ -86,6 +88,12 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
+  var suma=0
+  for(var x = 0; x < resultadosTest.length; x++){
+    suma += resultadosTest[x];
+  }
+  avg= suma / resultadosTest.length 
+  return avg
 }
 
 
@@ -93,19 +101,36 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
+  var mayor = 0;
+   for(i = 0; i < numero.length; i++){
+      if (numeroMasGrande[i] > mayor)
+      {
+          mayor = numeroMasGrande[i];
+      }
+  }
+   
+  return(mayor);
 }
 
 
-function multiplicarArgumentos() {
-  // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
-  // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
-  // Escribe tu código aquí:
-}
+function multiplicarArgumentos() 
+  
+
 
 
 function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
+  conteo = 0
+  for (var i=0; i < cuentoElementos.length; i++ ){
+      if (cuentoElementos[i] > 18) {
+        conteo = conteo + 1
+      }
+      
+}
+console.log (conteo)
+  
+
 
 }
 
@@ -115,6 +140,7 @@ function diaDeLaSemana(numeroDeDia) {
   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
+  
   
 } 
 
@@ -196,4 +222,4 @@ module.exports = {
   breakStatement,
   continueStatement,
 }
-  }
+  

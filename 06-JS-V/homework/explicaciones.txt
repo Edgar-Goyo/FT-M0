@@ -1,0 +1,2 @@
+* `prototype`: Comandos que vienen predefinidos en JS
+* _Constructors_ (de Clases) Nos permite usar el constructor de la clase de la cual estamos heredando.

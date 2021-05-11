@@ -1,0 +1,7 @@
+* Objetos
+
+Son elementos que se consideran como los sujetosa los cuales se les atribuyen varias Propiedades
+	* Propiedades : Son las caracteristicas de los Objetos
+	* Métodos sirven para hacer acciones como  modificar las propiedades de un objeto 
+	* Bucle `for…in`: Son expresiones que nos permiten realizar un procedimiento n numero de veces
+	* Notación de puntos vs notación de corchetes Son las dos formas diferentes con las cuales llamo a alguina propiedad de los Objetos

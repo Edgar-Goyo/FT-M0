@@ -1,0 +1,2 @@
+Funciones Callback: Es la manera como puedo transferir argumentos de una funcion a otra.
+ 
